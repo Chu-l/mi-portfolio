@@ -16,6 +16,7 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    background-color: white;
 }
 /*NAV*/
 nav {
@@ -88,17 +89,13 @@ span {
 #conocimientos {
     background-color: #F6F7FB;
     height: 984px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 .div1 {
     width: 35vw;
     height: 20vh;
-    border: solid black 1px;
     text-align: center;
-    margin-top: 100px;
+    margin: auto;
+    padding: 9% 0 4% 0;
 }
 .div1>h2 {
     font-size: 40px;
@@ -107,13 +104,13 @@ span {
     color: #616175;
 }
 .div2-s2 {
-    border: solid black 1px;
     width: 70%;
     height: 519px;
+    margin: auto;
     display: flex;
-    align-content: center;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: center;    
 }
 .caja-s2 {
     border: #616175 solid 1px;
@@ -127,7 +124,10 @@ span {
 .img-s2 {
     width: 50%;
     padding-top: 15%;
-    
+}
+.caja-s2:hover {
+    border: #a13cba solid 1px;
+    color: #a13cba;
 }
 /*SECCIÓN3*/
 .s3 {
