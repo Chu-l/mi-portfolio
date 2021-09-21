@@ -8,8 +8,9 @@
         <meta name="keywords" content="lilen, chu, portfolio, portafolio, desarrolladora, desarrollo web, chu-l">
         <meta name="description" content="Portfolio personal de Lilen Chu.">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link href="estilo.css" rel="stylesheet">
+        <link href="css/estilo.css" rel="stylesheet">
         <link href="imagenes/icono.png" rel="icon">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     </head>
 <!--Fin del Head-->
 <!--Principio del Body-->
@@ -106,20 +107,22 @@
                 <div class="caja2-s5">
                     <h2 class="tit-s5">Escribime</h2>
                     <form action="mailto:lilen.chu@hotmail.com" method="POST" enctype="text/plain">
-                        <p>
-                            <label for="nombre">Nombre<span class="obligatorio">*</span></label>
+                        <div class="ayn">
+                            <p class="p-nom">
+                            <label for="nombre">Nombre <span class="obligatorio">*</span></label>
                             <input type="text" name="nombre" id="nombre" required="required" placeholder="Escribe tu nombre">
-                        </p>
-                        <p>
-                            <label for="apellido">Apellido<span class="obligatorio">*</span></label>
+                            </p>
+                            <p class="p-ape">
+                            <label for="apellido">Apellido <span class="obligatorio">*</span></label>
                             <input type="text" name="apellido" id="apellido" required="required" placeholder="Escribe tu apellido">
-                        </p>
+                            </p>
+                        </div>
                         <p>
-                            <label for="email">Email<span class="obligatorio">*</span></label>
+                            <label for="email">Email <span class="obligatorio">*</span></label>
                             <input type="email" name="email" id="email" required="required" placeholder="Escribe tu Email">
                         </p>
                         <p>
-                            <label for="mensaje">Mensaje<span class="obligatorio">*</span></label>
+                            <label for="mensaje">Mensaje <span class="obligatorio">*</span></label>
                             <textarea type="" name="mensaje" id="mensaje" required="required" placeholder="Escriba un mensaje aquí" size="58"></textarea>
                         </p>
                         <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>

@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
 }
-/*BODY*/
+/*__________BODY__________*/
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #FFFFFF;
 }
-/*HEADER*/
+/*__________HEADER__________*/
 header {
     box-shadow: rgb(175, 175, 175, 0.6) 0px 10px 12px 0px;
     height: 93px;
@@ -18,7 +18,7 @@ header {
     align-items: center;
     background-color: white;
 }
-/*NAV*/
+/*_____NAV_____*/
 nav {
    padding-right: 15%;
 }
@@ -46,8 +46,8 @@ a {
     opacity: 0.7;
     color: #FFFFFF;
 }
-/*MAIN*/
-/*SECCIÓN1*/
+/*__________MAIN__________*/
+/*_____SECCIÓN1_____*/
 #hola {
     display: flex;
     flex-direction: row;
@@ -85,7 +85,7 @@ h1 {
 .img-s1 {
     width: 40vw;
 }
-/*SECCIÓN2*/
+/*_____SECCIÓN2_____*/
 #conocimientos {
     background-color: #F6F7FB;
     height: 984px;
@@ -130,7 +130,7 @@ h1 {
     border: #a13cba solid 1px;
     color: #a13cba;
 }
-/*SECCIÓN3*/
+/*_____SECCIÓN3_____*/
 .s3 {
     background-color: #a13cba;
     text-align: center;
@@ -140,12 +140,12 @@ h1 {
 .louis {
     font-weight: 900;
 }
-/*SECCIÓN4*/
+/*_____SECCIÓN4_____*/
 #proyectos {
     text-align: center;
     height: 1518px;
 }
-/*SECCIÓN5*/
+/*_____SECCIÓN5_____*/
 #contacto {
     background-color: #F6F7FB;
     height: 820px;
@@ -160,16 +160,88 @@ h1 {
     margin: auto;
     display: flex;
     align-items: baseline;
+    justify-content: center;
 }
-.caja1-s5, .caja2-s5 {
+.caja1-s5 {
+    margin: 80px 0 80px 60px;
+    border: black solid 1px;
     width: 50%;
-    margin: 80px 60px;
+}
+.caja2-s5 {
+    margin: 80px 60px 80px 0;
+    border: black solid 1px;
+    width: 50%;
 }
 .tit-s5 {
     font-size: 38px;
     font-weight: 900;
 }
-/*FOOTER*/
+.ayn {
+    display: flex;
+}
+.p-nom, .p-ape {
+    width: 50%;
+}
+/*FORMULARIO*/
+*:focus {
+    outline: none;
+}
+input {
+	background-color: #F6F7FB; 
+	width: 90%; 
+	height: 40px; 
+    border: hidden;
+	border-radius: 20px; 
+	margin: 10px 0 20px 10px;
+}
+textarea {
+    background-color: #F6F7FB; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 20px;
+    border: hidden; 
+    padding: 15px 0 0 10px;
+    margin: 10px 0 20px 0;
+  }
+  label {
+    display: block; 
+    float: center; 	
+  }
+  button {
+	height: 45px; 
+    padding: 0 20px 0 20px;	
+	margin: 10px 0 20px 0; 
+	background-color: #a13cba; 
+	border: #a13cba solid 1px; 
+	border-radius: 20px;   
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+}
+.obligatorio {
+    color: #a13cba;
+}
+form input:required:valid {
+    background: #fff url("https://icons.iconarchive.com/icons/graphicrating/koloria/16/Valid-icon.png") no-repeat 98% center;
+    box-shadow: 0 0 5px #5cd053;
+    border-color: #28921f;
+}
+form input:focus:invalid {
+    background: #fff url("https://icons.iconarchive.com/icons/graphicrating/koloria/16/Error-icon.png") no-repeat 98% center;
+    box-shadow: 0 0 5px #a14cb6;
+    border-color: #a13cba;
+}
+form textarea:required:valid {
+    background: #fff url("https://icons.iconarchive.com/icons/graphicrating/koloria/16/Valid-icon.png") no-repeat 98% 95%;
+    box-shadow: 0 0 5px #5cd053;
+    border-color: #28921f;
+}
+form textarea:focus:invalid {
+    background: #fff url("https://icons.iconarchive.com/icons/graphicrating/koloria/16/Error-icon.png") no-repeat 98% 95%;
+    box-shadow: 0 0 5px #a14cb6;
+    border-color: #a13cba;
+}
+/*__________FOOTER__________*/
 footer {
     background-color: #a13cba;
     height: 300px;
