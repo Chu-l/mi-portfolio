@@ -244,12 +244,41 @@ form textarea:focus:invalid {
 /*__________FOOTER__________*/
 footer {
     background-color: #a13cba;
-    height: 300px;
     text-align: center;
+    padding: 4em 0;
 }
+/*Menú de links*/
 footer>a {
     color: white;
+    padding: 0 10px;
 }
+footer>a:active {
+    box-shadow: 0px 0px 10px white;
+}
+/*Menú de íconos*/
+footer i {
+    color: #a13cba;
+    font-size: 1.5em;
+    border: white solid 1px;
+    border-radius: 25px; 
+    background-color: white;
+    padding: 10px;
+    margin: 2em 0;
+}
+footer i:hover {
+    color: white;
+    background-color: #a13cba;
+}
+footer i:active {
+    box-shadow: 0px 0px 10px white;
+}
+/*Párrafo*/
 footer>p {
     color: white;
 }
+.corazon {
+    width: 40px;
+    vertical-align: middle;
+}
+
+/*__________MediaQuery__________*/
