@@ -135,7 +135,16 @@ h1 {
     background-color: #a13cba;
     text-align: center;
     color: white;
-    height: 560px;
+    padding: 4em 0;
+}
+.comillas {
+    width: 8%;
+}
+.s3 p {
+    font-size: 1.2vw;
+    width: 60vw;
+    margin: 2em auto;
+    line-height: 30px;
 }
 .louis {
     font-weight: 900;
