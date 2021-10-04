@@ -6,10 +6,14 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #FFFFFF;
+    /*box-shadow: #C6C6C6 inset -7px 0 25px -7px;*/
 }
+/*.s3, footer {
+    box-shadow: #8a2da1 inset -7px 0 15px -7px;
+}*/
 /*__________HEADER__________*/
 header {
-    box-shadow: rgb(175, 175, 175, 0.6) 0px 10px 12px 0px;
+    box-shadow: #F2F2F2 0px 10px 12px 0px;
     height: 93px;
     position: sticky;
     top: 0%;
@@ -157,75 +161,106 @@ h1 {
 /*_____SECCIÓN5_____*/
 #contacto {
     background-color: #F6F7FB;
-    height: 820px;
-    padding-top: 200px;
+    text-align: center;
+    padding: 12em 0;
 }
 .div1-s5 {
     background-color: white;
     border: 1px gray solid;
     border-radius: 10px;
-    height: 680px;
-    width: 1100px;
+    width: 60vw;
     margin: auto;
+    padding: 4em 0;
     display: flex;
     align-items: baseline;
-    justify-content: center;
+    justify-content: space-evenly;
 }
+/*Contactame*/
 .caja1-s5 {
-    margin: 80px 0 80px 60px;
-    border: black solid 1px;
-    width: 50%;
-}
-.caja2-s5 {
-    margin: 80px 60px 80px 0;
-    border: black solid 1px;
-    width: 50%;
+    width: 40%;
+    font-size: 1.2em;
+    text-align: left;
 }
 .tit-s5 {
-    font-size: 38px;
+    font-size: 2.5em;
     font-weight: 900;
+    margin-bottom: 0.5em;
 }
-.ayn {
-    display: flex;
+.caja1-s5>p {
+    margin-bottom: 2em;
 }
-.p-nom, .p-ape {
-    width: 50%;
+.caja1-s5>div {
+    margin-bottom: 1em;
+    display: table;
+    padding: 5px 20px 5px 0px;
 }
-/*FORMULARIO*/
+.caja1-s5>div:active {
+    box-shadow: 0px 0px 10px #a13cba;
+    border-radius: 25px;
+}
+.caja1-s5 i {
+    color: #a13cba;
+    margin: 0 10px;
+    padding: 10px;
+}
+.divs:hover i {
+    color: white;
+    background-color: #a13cba;
+    border-radius: 25px; 
+    padding: 10px;
+}
+.divs:hover a {
+    color:#a13cba;
+}
+/*Escribime*/
+.caja2-s5 {
+    width: 40%;
+    font-size: 1.2em;
+    text-align: left;
+}
+label {
+    display: block; 
+    float: center; 	
+}
+input {
+	height: 40px; 
+	width: 100%; 
+    background-color: #F6F7FB;
+    border: hidden;
+	border-radius: 20px; 
+    margin-bottom: 1em;
+    
+}
+textarea {
+    height: 150px; 
+    width: 94%; 
+    background-color: #F6F7FB;
+    border-radius: 20px;
+    border: hidden; 
+    margin-bottom: 1em;
+    padding: 1em;
+}
 *:focus {
     outline: none;
 }
-input {
-	background-color: #F6F7FB; 
-	width: 90%; 
-	height: 40px; 
-    border: hidden;
-	border-radius: 20px; 
-	margin: 10px 0 20px 10px;
+.ayn {
+    display: flex;
+    justify-content: space-between;
 }
-textarea {
-    background-color: #F6F7FB; 
-    width: 405px; 
-    height: 150px; 
-    border-radius: 20px;
-    border: hidden; 
-    padding: 15px 0 0 10px;
-    margin: 10px 0 20px 0;
-  }
-  label {
-    display: block; 
-    float: center; 	
-  }
-  button {
-	height: 45px; 
-    padding: 0 20px 0 20px;	
-	margin: 10px 0 20px 0; 
-	background-color: #a13cba; 
+.p-nom, .p-ape {
+    width: 48%;
+}
+.enviar {
+    width: 25%;
+	font-size: 1em;
+    color: white;
+    background-color: #a13cba; 
 	border: #a13cba solid 1px; 
 	border-radius: 20px;   
     cursor: pointer;
-    color: white;
-    font-size: 18px;
+}
+.enviar:hover {
+    opacity: 0.7;
 }
 .obligatorio {
     color: #a13cba;
