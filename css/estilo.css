@@ -87,17 +87,17 @@ nav {
     align-items: center;  
 }
 .caja1-s1 {
-    /*border: blue solid 1px;*/
+    border: blue solid 1px;
     text-align: left;
     font-size: large;
     line-height: 50px;
-    width: 450px;
+    width: 28.125rem;
     margin: 2rem;
 }
 .caja2-s1 {
-    /*border: blue solid 1px;*/
-    width: 500px;
-    height: 450px;
+    border: blue solid 1px;
+    width: 31.25rem;
+    height: 28.125rem;
     margin: 2rem;
 }
 h1 {
@@ -129,26 +129,28 @@ h1 {
 /*_____SECCIÓN2_____*/
 #conocimientos {
     background-color: #F6F7FB;
-    padding-bottom: 8em;
+    padding: 8rem 0;
     box-shadow: inset -26px 0px 9px -15px rgba(97,97,117,0.50);
+    width: 100%;
 }
 .div1 {
-    width: 35vw;
-    height: 20vh;
+    /*border: #28921f solid 1px;*/
+    width: 30rem;
     text-align: center;
-    margin: auto;
-    padding: 7rem 0 1.5rem 0;
+    margin: 0 auto 3rem auto;
+    padding-bottom: 0.5rem;
 }
 .div1>h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 900;
 }
 .div1>p {
     color: #616175;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .div2-s2 {
-    width: 50%;
+    /*border: #28921f solid 1px;*/
+    width: 56rem;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -199,35 +201,35 @@ h1 {
 /*_____SECCIÓN4_____*/
 #proyectos {
     text-align: center;
-    padding-bottom: 8em;
+    padding: 8rem 0;
+    width: 100%;
 }
 #proyectos .div1 h2 {
     margin-bottom: 0.5em;
 }
 .div2-s4 {
-    width: 60%;
+    /*border: #28921f solid 1px;*/
+    width: 69.5rem;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    align-content: center;    
+    align-content: center;   
 }
 /*Cards-s4*/
 .caja-s4 {
     background-color: white;
     border: #dddfe5 solid 1px;
     border-radius: 10px;
-    width: 30.2%;
-    height: 28%;
+    width: 21rem;
+    height: 18.9rem;
     text-align: center;
     margin: 1em;
+    padding-bottom: 2em;
 }
 .img-s4 {
     width: 90%;
     padding-top: 15%;
     margin-bottom: 6%;
-}
-.div2-s4 h3 {
-    margin-bottom: 10%;
 }
 .caja-s4:hover {
     border: #a13cba solid 1px;
@@ -250,6 +252,7 @@ h1 {
     box-shadow: inset -26px 0px 9px -15px rgba(97,97,117,0.50);
     text-align: center;
     padding: 12em 0;
+    width: 100%;
 }
 .div1-s5 {
     background-color: white;
@@ -460,15 +463,51 @@ footer>p {
 }
 
 /*Sección2*/
+@media (max-width: 919px) {
+    .div2-s2 {
+        width: 37rem;
+    }
+}
+@media (max-width: 599px) {
+    .div2-s2 {
+        width: 19rem;
+    }
+}
 @media (max-width: 550px) {
     .div1>h2 {
         font-size: 2rem;
+    }
+    .div1 {
+        width: 85%;
+    }
+    .div2-s2 {
+        width: 55%;
     }
 }
 
 /*Sección3*/
 
 /*Sección4*/
+@media (max-width: 1156px) {
+    .div2-s4 {
+        width: 46.5rem;
+    }
+}
+@media (max-width: 744px) {
+    .div2-s4 {
+        flex-direction: column;
+        width: 23rem;
+    }
+}
+@media (max-width: 430px) {
+    .div2-s4 {
+        width: 85%;
+    }
+    .caja-s4 {
+        width: 95%;
+        height: 13%;
+    }
+}
 
 /*Sección5*/
 
