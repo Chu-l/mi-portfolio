@@ -40,8 +40,7 @@ nav {
     padding: 0.5rem;
 }
 .bordenav {
-    
-    height: 10vh;
+    height: 100%;
     width: 15px;
     position: absolute;
     right: 0;
@@ -79,22 +78,27 @@ nav {
     padding: 9.5rem 0;
 }
 .div-s1 {
-    width: 60vw;
+    /*border: #28921f solid 1px;*/
+    width: 95vw;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;  
 }
 .caja1-s1 {
+    /*border: blue solid 1px;*/
     text-align: left;
     font-size: large;
     line-height: 50px;
-    width: 40%;
+    width: 450px;
+    margin: 2rem;
 }
 .caja2-s1 {
-    width: 45%;
-    height: 70%;
+    /*border: blue solid 1px;*/
+    width: 500px;
+    height: 450px;
+    margin: 2rem;
 }
 h1 {
     font-size: 2em;
@@ -418,3 +422,59 @@ footer>p {
 }
 
 /*__________MediaQuery__________*/
+
+/*Header*/
+@media (max-width: 1100px) {
+    .menu {
+        visibility: hidden;
+    }
+    header {
+        box-shadow: inset -26px 0px 9px -15px rgba(97,97,117,0.50);
+        height: 0;
+    }
+}
+
+/*Sección1*/
+@media (max-width: 1138px) {
+    .div-s1 {
+        flex-direction: column;
+    }
+    .caja1-s1 {
+        text-align: center;
+    }
+}
+@media (max-width: 590px) {
+    .caja1-s1 {
+        width: 80%;
+        margin: auto;
+    }
+    .caja2-s1 {
+        width: 90%;
+        margin: auto;
+    }
+}
+@media (max-width: 550px) {
+    .caja1-s1 span {
+        font-size: 2.75rem;
+    }
+}
+
+/*Sección2*/
+@media (max-width: 550px) {
+    .div1>h2 {
+        font-size: 2rem;
+    }
+}
+
+/*Sección3*/
+
+/*Sección4*/
+
+/*Sección5*/
+
+/*Footer*/
+@media (max-width: 700px) {
+    .menu-fot {
+        visibility: hidden;
+    }
+}
