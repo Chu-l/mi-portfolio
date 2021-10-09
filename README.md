@@ -13,6 +13,11 @@
 * Mis proyectos
 * Formulario de contacto
 
+### ⚙️ Tecnologías
+
+* HTML 5
+* CSS 3
+
 ## Portada
 En esta sección se puede ver una breve presentación de quién soy.
 
@@ -20,6 +25,10 @@ En esta sección se puede ver una breve presentación de quién soy.
 Sección donde se encuentran las principales tecnologías que utilizo en el desarrollo de mis proyectos.
 
 ## Cita
+
+<div align="center">
+  <img width="100%" src="imagenes/rm-cita.png" alt="cita" />
+</div>
 
 ## Mis proyectos
 En esta sección se muestran algunos de mis trabajos realizados a lo largo de mis estudios en ADA ITW.
