@@ -1,12 +1,12 @@
-# Mi portfolio
+# :cherry_blossom: Mi portfolio :cherry_blossom:
 #### Proyecto final del módulo 1 - HTML y CSS de la carrera de Desarrollo Frontend en ADA ITW.
 
-### Estructura
+### :wrench: Estructura
 * Header con nav principal
 * 5 secciones
 * Footer con links
 
-### Contenidos
+### :black_nib: Contenido
 * Portada
 * Mis conocimientos
 * Cita
