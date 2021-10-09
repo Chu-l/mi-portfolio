@@ -87,7 +87,7 @@ nav {
     align-items: center;  
 }
 .caja1-s1 {
-    border: blue solid 1px;
+    /*border: blue solid 1px;*/
     text-align: left;
     font-size: large;
     line-height: 50px;
@@ -95,7 +95,7 @@ nav {
     margin: 2rem;
 }
 .caja2-s1 {
-    border: blue solid 1px;
+    /*border: blue solid 1px;*/
     width: 31.25rem;
     height: 28.125rem;
     margin: 2rem;
@@ -184,19 +184,26 @@ h1 {
     box-shadow: inset -26px 0px 9px -15px rgba(97,97,117,0.50);
     text-align: center;
     color: white;
-    padding: 4em 0;
+    padding: 4rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .comillas {
-    width: 8%;
+    /*border: black solid 1px;*/
+    width: 10rem;
 }
 #s3 p {
-    font-size: 1.2vw;
-    width: 60vw;
-    margin: 2em auto;
-    line-height: 30px;
+    font-size: 1.6rem;
+    width: 69rem;
+    margin: 1.7em auto;
+    line-height: 35px;
 }
 .louis {
     font-weight: 900;
+}
+#s3 div {
+    width: 69rem;
 }
 /*_____SECCIÓN4_____*/
 #proyectos {
@@ -258,7 +265,7 @@ h1 {
     background-color: white;
     border: 1px #dddfe5 solid;
     border-radius: 10px;
-    width: 60vw;
+    width: 69rem; 
     margin: auto;
     padding: 4em 0;
     display: flex;
@@ -267,6 +274,7 @@ h1 {
 }
 /*Contactame*/
 .caja1-s5 {
+    /*border: blue solid 1px;*/
     width: 40%;
     font-size: 1.2em;
     text-align: left;
@@ -304,6 +312,7 @@ h1 {
 }
 /*Escribime*/
 .caja2-s5 {
+    /*border: blue solid 1px;*/
     width: 40%;
     font-size: 1.2em;
     text-align: left;
@@ -486,6 +495,12 @@ footer>p {
 }
 
 /*Sección3*/
+@media (max-width: 1109px) {
+    #s3 div, #s3 p {
+        width: 90%;
+        font-size: 1.4rem;
+    }
+}
 
 /*Sección4*/
 @media (max-width: 1156px) {
@@ -510,6 +525,38 @@ footer>p {
 }
 
 /*Sección5*/
+@media (max-width: 1149px) {
+    .div1-s5 {
+        width: 95%;
+    }
+}
+@media (max-width: 900px) {
+    .div1-s5 {
+        flex-direction: column;
+        justify-content: center;
+        width: 95%;
+        padding-left: 1.3em;
+    }
+    .caja1-s5 {
+        width: 95%;
+        padding-bottom: 1em;
+    }
+    .caja2-s5 {
+        width: 95%;
+    }
+}
+@media (max-width: 500px) {
+    .ayn {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .p-nom, .p-ape {
+        width: 100%;
+    }
+    .tit-s5 {
+        font-size: 2rem;
+    }
+}
 
 /*Footer*/
 @media (max-width: 700px) {
