@@ -92,13 +92,13 @@ nav {
     font-size: large;
     line-height: 50px;
     width: 28.125rem;
-    margin: 2rem;
+    margin: 3rem;
 }
 .caja2-s1 {
-    border: blue solid 1px;
+    
     width: 31.25rem;
     height: 28.125rem;
-    margin: 2rem;
+    margin: 3rem;
 }
 h1 {
     font-size: 2em;
@@ -125,7 +125,7 @@ h1 {
 }
 .img-s1 {
     width: 100%;
-    margin: 9em 0;
+    margin: 1rem auto;
 }
 /*_____SECCIÓN2_____*/
 #conocimientos {
