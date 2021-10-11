@@ -21,6 +21,10 @@
 ## Portada
 En esta sección se puede ver una breve presentación de quién soy.
 
+<div align="center">
+  <img width="80%" src="imagenes/rm-portada.png" alt="conocimientos" />
+</div>
+
 ## Mis conocimientos
 Sección donde se encuentran las principales tecnologías que utilizo en el desarrollo de mis proyectos.
 
@@ -49,4 +53,4 @@ Sección con un formulario para que puedas contactarte conmigo a través de la p
 </div>
 <br>
 
-### <p align="center"> Para visulizar la página hacer click en :rocket: github-pages en el panel de la izquierda. </p>
+### <p align="center"> Para visulizar la página hacer click en :rocket: github-pages. </p>
