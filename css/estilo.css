@@ -78,27 +78,24 @@ nav {
     padding: 9.5rem 0;
 }
 .div-s1 {
-    /*border: #28921f solid 1px;*/
     width: 95vw;
     margin: auto;
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     justify-content: center;
     align-items: center;  
 }
 .caja1-s1 {
-    /*border: blue solid 1px;*/
     text-align: left;
     font-size: large;
     line-height: 50px;
     width: 28.125rem;
-    margin: 3rem;
+    margin: 3rem 5rem 3rem 0;
 }
 .caja2-s1 {
-    
-    width: 31.25rem;
-    height: 28.125rem;
-    margin: 3rem;
+    width: 35rem;
+    height: 29rem;
+    margin: 3rem 0 3rem 5rem; 
 }
 h1 {
     font-size: 2em;
@@ -174,7 +171,8 @@ h1 {
     padding-top: 15%;
 }
 .div2-s2 h2 {
-    margin-bottom: 15%;
+    padding-top: 0.5rem;
+    margin-bottom: 10%;
 }
 .caja-s2:hover {
     border: #6dc9f7 solid 1px;
@@ -434,7 +432,7 @@ footer>p {
     color: white;
 }
 .corazon {
-    width: 40px;
+    width: 35px;
     vertical-align: middle;
 }
 
@@ -458,6 +456,10 @@ footer>p {
     }
     .caja1-s1 {
         text-align: center;
+        margin: 3rem;
+    }
+    .caja2-s1 {
+        margin: 3rem;
     }
 }
 @media (max-width: 590px) {
@@ -467,7 +469,9 @@ footer>p {
     }
     .caja2-s1 {
         width: 90%;
+        height: 60%;
         margin: auto;
+        padding-top: 3rem;
     }
 }
 @media (max-width: 550px) {
@@ -569,3 +573,4 @@ footer>p {
         visibility: hidden;
     }
 }
+
