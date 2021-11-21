@@ -5,7 +5,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #FFFFFF;
-    box-shadow: inset -26px 0px 9px -15px rgba(97,97,117,0.50);
 }
 a {
     text-decoration: none;
@@ -39,13 +38,6 @@ nav {
 .caja-nav {
     margin: 0 1rem;
     padding: 0.5rem;
-}
-.bordenav {
-    height: 100%;
-    width: 15px;
-    position: absolute;
-    right: 0;
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(97,97,117,0.5));
 }
 .caja-nav:active {
     box-shadow: 0px 0px 10px #6dc9f7;
@@ -132,7 +124,6 @@ h1 {
 #conocimientos {
     background-color: #F6F7FB;
     padding: 8rem 0;
-    box-shadow: inset -26px 0px 9px -15px rgba(97,97,117,0.50);
     width: 100%;
 }
 .div1 {
@@ -184,7 +175,6 @@ h1 {
 /*_____SECCIÓN3_____*/
 #s3 {
     background-color: #3a2c60;
-    box-shadow: inset -26px 0px 9px -15px rgba(97,97,117,0.50);
     text-align: center;
     color: white;
     padding: 4rem 0;
@@ -260,7 +250,6 @@ h1 {
 /*_____SECCIÓN5_____*/
 #contacto {
     background-color: #F6F7FB;
-    box-shadow: inset -26px 0px 9px -15px rgba(97,97,117,0.50);
     text-align: center;
     padding: 12em 0;
     width: 100%;
@@ -366,7 +355,7 @@ textarea {
     opacity: 0.7;
 }
 .obligatorio {
-    color: #a13cba;
+    color: #fa759e;
 }
 
 form input:required:valid {
@@ -376,8 +365,8 @@ form input:required:valid {
 }
 form input:focus:invalid {
     background: #fff url("https://icons.iconarchive.com/icons/graphicrating/koloria/16/Error-icon.png") no-repeat 98% center;
-    box-shadow: 0 0 5px #a14cb6;
-    border-color: #a13cba;
+    box-shadow: 0 0 5px #fa759e;
+    border-color: #fa759e;
 }
 form textarea:required:valid {
     background: #fff url("https://icons.iconarchive.com/icons/graphicrating/koloria/16/Valid-icon.png") no-repeat 98% 95%;
@@ -386,14 +375,13 @@ form textarea:required:valid {
 }
 form textarea:focus:invalid {
     background: #fff url("https://icons.iconarchive.com/icons/graphicrating/koloria/16/Error-icon.png") no-repeat 98% 95%;
-    box-shadow: 0 0 5px #a14cb6;
-    border-color: #a13cba;
+    box-shadow: 0 0 5px #fa759e;
+    border-color: #fa759e;
 }
 
 /*__________FOOTER__________*/
 footer {
     background-color: #3a2c60;
-    box-shadow: inset -26px 0px 9px -15px rgba(97,97,117,0.50);
     text-align: center;
     padding: 4em 0;
 }
